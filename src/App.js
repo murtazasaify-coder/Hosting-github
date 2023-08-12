@@ -48,16 +48,16 @@ function App() {
   
   return (
   <> 
-        <BrowserRouter>
+        {/* <BrowserRouter> */}
           <Navbar title="Hakimi Dry Fruits" mode={mode} toggleMode={toggle}   />
           <Alert  alert={alert}/>
-      <div className="container my-3" >
-          <Routes>
-            <Route exact path="/" element={<Form heading="Enter Text Here"  mode={mode} showAlert={showAlert}/>} />
-            <Route exact path="/about" element={<About/>} />
-          </Routes>
-      </div>
-        </BrowserRouter> 
+          <div className="container my-3" >
+              {/* <Routes> */}
+                  {/* <Route exact path="/" element={*/}<Form heading="Enter Text Here"  mode={mode} showAlert={showAlert}/>  
+                  {/* <Route exact path="/about" element={<About/>} /> */}
+              {/* </Routes> */}
+          </div>
+        {/* </BrowserRouter>  */}
   </>
    
   );
